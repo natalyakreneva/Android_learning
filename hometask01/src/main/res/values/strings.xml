@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Home task 01</string>
+    <string name="country" translatable="false"></string>
+    <string name="countryH" translatable="false"></string>
+</resources>

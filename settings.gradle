@@ -1,0 +1,4 @@
+include ':hometask01'
+include ':hometask1'
+include ':app'
+rootProject.name = "Android_learning"
