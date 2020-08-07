@@ -1,3 +1,4 @@
+include ':hometask02'
 include ':hometask01'
 include ':hometask1'
 include ':app'

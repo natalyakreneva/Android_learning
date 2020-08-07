@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:ignore="ExtraText">
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:layout_weight="1">
+        <TextView
+            android:text="@string/poi"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center"
+           >
+        </TextView>
+  </TableRow>
+
+ <TableRow
+     android:id="@+id/tableRow2"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_weight="1">
+     <ImageView
+         android:id="@+id/image01"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/ic_image_01">
+      </ImageView>
+
+     <TextView
+         android:id="@+id/text01"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/string01"
+         android:textSize="20sp"
+         android:layout_marginLeft="10dp" >
+     </TextView>
+ </TableRow>
+
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <ImageView
+            android:id="@+id/image02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_image_02">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/text02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/string02"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp">
+        </TextView>
+    </TableRow>
+
+
+    <TableRow
+    android:id="@+id/tableRow4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1">
+    <ImageView
+        android:id="@+id/image03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_image_03">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/text03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/string03"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+</TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <ImageView
+            android:id="@+id/image04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_image_04">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/text04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/string04"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp">
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <ImageView
+            android:id="@+id/image05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_image_05">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/text05"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/string05"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp">
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <ImageView
+            android:id="@+id/image06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_image_06">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/text06"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/string06"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp">
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <ImageView
+            android:id="@+id/image07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_image_07">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/text07"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/string07"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp">
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <ImageView
+            android:id="@+id/image08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_image_08"
+            android:layout_marginLeft="10dp">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/text08"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/string08"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp">
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <ImageView
+            android:id="@+id/image09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_image_09">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/text09"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/string09"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp">
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <ImageView
+            android:id="@+id/image10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_image_10">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/string10"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp">
+        </TextView>
+    </TableRow>
+</TableLayout>
