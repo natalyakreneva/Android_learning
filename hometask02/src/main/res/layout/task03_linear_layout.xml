@@ -12,17 +12,17 @@
         android:text="@string/signin"
         android:textSize="30dp"></TextView>
 
-     <EditText
+    <EditText
         android:id="@+id/editTextTextEmailAddress"
-         android:layout_marginTop="20dp"
+        android:layout_marginTop="20dp"
         android:layout_width="379dp"
         android:layout_height="62dp"
         android:layout_marginLeft="10dp"
         android:background="@drawable/oval_button"
         android:text="@string/email"
-         android:textSize="30dp"
-         android:textColor="@color/grey"
-         android:paddingLeft="20dp"
+        android:textSize="30dp"
+        android:textColor="@color/grey"
+        android:paddingLeft="20dp"
         android:ems="10"
         android:inputType="textEmailAddress"></EditText>
 
@@ -38,28 +38,28 @@
         android:textColor="@color/grey"
         android:paddingLeft="20dp"
         android:ems="10"></EditText>
- <LinearLayout
-     android:layout_width="match_parent"
-     android:layout_height="wrap_content"
-     android:orientation="horizontal"
-     android:layout_marginTop="10dp">
-
-       <CheckBox
-        android:id="@+id/checkBox"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/remember"
-        android:textSize="15dp"
-        android:layout_weight="1"
-        android:layout_marginLeft="20dp"></CheckBox>
-      <TextView
-          android:id="@+id/forgot"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:text="@string/forgot"
-          android:textSize="15dp"
-          android:layout_weight="1"></TextView>
- </LinearLayout>
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/remember"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"></CheckBox>
+        <TextView
+            android:id="@+id/forgot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/forgot"
+            android:textSize="15dp"
+            android:layout_weight="1"></TextView>
+    </LinearLayout>
 
     <Button
         android:id="@+id/sign_button"

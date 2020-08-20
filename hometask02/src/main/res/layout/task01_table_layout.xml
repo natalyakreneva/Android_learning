@@ -17,31 +17,31 @@
             android:layout_width="wrap_content"
             android:textSize="20sp"
             android:gravity="center"
-           >
+            >
         </TextView>
-  </TableRow>
+    </TableRow>
 
- <TableRow
-     android:id="@+id/tableRow2"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:layout_weight="1">
-     <ImageView
-         android:id="@+id/image01"
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
-         android:src="@drawable/ic_image_01">
-      </ImageView>
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <ImageView
+            android:id="@+id/image01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_image_01">
+        </ImageView>
 
-     <TextView
-         android:id="@+id/text01"
-         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-         android:text="@string/string01"
-         android:textSize="20sp"
-         android:layout_marginLeft="10dp" >
-     </TextView>
- </TableRow>
+        <TextView
+            android:id="@+id/text01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/string01"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp" >
+        </TextView>
+    </TableRow>
 
 
     <TableRow
@@ -68,26 +68,26 @@
 
 
     <TableRow
-    android:id="@+id/tableRow4"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_weight="1">
-    <ImageView
-        android:id="@+id/image03"
+        android:id="@+id/tableRow4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_image_03">
-    </ImageView>
+        android:layout_weight="1">
+        <ImageView
+            android:id="@+id/image03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_image_03">
+        </ImageView>
 
-    <TextView
-        android:id="@+id/text03"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/string03"
-        android:textSize="20sp"
-        android:layout_marginLeft="10dp">
-    </TextView>
-</TableRow>
+        <TextView
+            android:id="@+id/text03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/string03"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp">
+        </TextView>
+    </TableRow>
 
     <TableRow
         android:id="@+id/tableRow5"

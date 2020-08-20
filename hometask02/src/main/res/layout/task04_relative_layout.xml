@@ -124,7 +124,7 @@
         android:background="@drawable/square"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="15dp"
-       android:layout_below="@+id/description"> </ImageView>
+        android:layout_below="@+id/description"> </ImageView>
     <ImageView
         android:id="@+id/sqr03"
         android:layout_marginLeft="16dp"
