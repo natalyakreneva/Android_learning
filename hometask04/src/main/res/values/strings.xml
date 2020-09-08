@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Hometask04</string>
+    <string name="Toast">Toast</string>
+    <string name="Snackbar">Snackbar</string>
+</resources>
