@@ -1,0 +1,46 @@
+<resources>
+<!-- 01 task -->
+    <string name="app_name">Home task 02</string>
+    <string name="poi">POI</string>
+    <string name="string01">Attractions</string>
+    <string name="string02">Dining</string>
+    <string name="string03">Education</string>
+    <string name="string04">Family</string>
+    <string name="string05">Health</string>
+    <string name="string06">Office</string>
+    <string name="string07">Promotions</string>
+    <string name="string08">Radio</string>
+    <string name="string09">Recipes</string>
+    <string name="string10">Sports</string>
+ <!-- 02 task -->
+    <string name="title">Title</string>
+    <string name="price">Price</string>
+    <string name="location">Location</string>
+    <string name="description">Description</string>
+    <string name="inventory">Inventory</string>
+    <string name="weight">Weight</string>
+ <!-- 03 task -->
+    <string name="signin">Sing in</string>
+    <string name="sign_in">Sing In</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="remember">Remember</string>
+    <string name="forgot">Forgot password?</string>
+    <string name="just">* Just sign in</string>
+<!-- 03 task -->
+    <string name="android">Android</string>
+    <string name="user">Username</string>
+    <string name="address">Address</string>
+    <string name="descr">Description</string>
+    <string name="directions">DIRECTIONS</string>
+    <string name="call">CALL</string>
+    <string name="save">SAVE</string>
+    <string name="website">WEBSITE</string>
+    <string name="posts">Posts</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <!-- 05 task-->
+    <string name="certificated">Certificated</string>
+    <string name="layouts">Layouts</string>
+    <string name="views">Views</string>
+</resources>

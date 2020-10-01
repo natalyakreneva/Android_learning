@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/signin"
+        android:textSize="30dp"
+        android:layout_alignParentLeft="true"></TextView>
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_marginTop="20dp"
+        android:layout_width="379dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/oval_button"
+        android:text="@string/email"
+        android:textSize="30dp"
+        android:textColor="@color/grey"
+        android:paddingLeft="20dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/signin"></EditText>
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_margin="10dp"
+        android:layout_width="379dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/oval_button"
+        android:text="@string/password"
+        android:textSize="30dp"
+        android:textColor="@color/grey"
+        android:paddingLeft="20dp"
+        android:ems="10"
+        android:layout_below="@id/editTextTextEmailAddress"></EditText>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/remember"
+        android:textSize="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/editTextTextPassword"></CheckBox>
+
+    <TextView
+        android:id="@+id/forgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="80dp"
+        android:text="@string/forgot"
+        android:textSize="15dp"
+        android:layout_toRightOf="@id/checkBox"
+        android:layout_below="@id/editTextTextPassword"></TextView>
+
+    <Button
+        android:id="@+id/sign_button"
+        android:layout_width="379dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/oval_button_black"
+        android:text="@string/sign_in"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_below="@id/checkBox">
+    </Button>
+
+    <TextView
+        android:id="@+id/just_text"
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center_horizontal"
+        android:text="@string/just"
+        android:layout_below="@id/sign_button"></TextView>
+</RelativeLayout>
