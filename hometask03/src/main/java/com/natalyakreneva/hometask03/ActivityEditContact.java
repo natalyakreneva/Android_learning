@@ -20,7 +20,7 @@ public class ActivityEditContact extends AppCompatActivity {
     private EditText editName;
     private EditText editPhoneNumber;
     private ImageButton returnButtonEdit;
-    public Contacts contact;
+    private Contacts contact;
     private int id;
     protected static final String EDIT_NAME = "";
     protected static final String EDIT_PHONE = "";

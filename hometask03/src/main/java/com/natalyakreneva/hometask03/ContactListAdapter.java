@@ -14,7 +14,6 @@ import java.util.ArrayList;
 public class ContactListAdapter extends Adapter<ContactListAdapter.ListViewHolder> {
     private ArrayList<Contacts> contacts;
     private ContactListAdapter.OnItemClickListener listener;
-    private Contacts contact;
 
     ContactListAdapter(ArrayList<Contacts> contacts, ContactListAdapter.OnItemClickListener listener) {
         this.contacts = contacts;

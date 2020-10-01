@@ -1,3 +1,5 @@
+include ':hometask05'
+include ':hometask04'
 include ':hometask03'
 include ':hometask02'
 include ':hometask01'

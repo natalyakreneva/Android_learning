@@ -24,10 +24,8 @@ public class ActivityAddContact extends Activity {
     private RadioButton radioButtonEmail;
     private EditText addTextName;
     private EditText addTextPhoneNumber;
-    private ArrayList<Contacts> contacts;
     protected static final String CONTACT_NAME = "Name";
     protected static final String CONTACT_PHONE = "Phone Number";
-
 
     public ActivityAddContact() {
     }
@@ -86,7 +84,7 @@ public class ActivityAddContact extends Activity {
 
     protected void onRestoreInstanceState(@NonNull Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
-        this.addTextName.setText(savedInstanceState.getString(CONTACT_NAME));
-        this.addTextPhoneNumber.setText(savedInstanceState.getString(CONTACT_PHONE));
+        addTextName.setText(savedInstanceState.getString(CONTACT_NAME));
+        addTextPhoneNumber.setText(savedInstanceState.getString(CONTACT_PHONE));
     }
 }
