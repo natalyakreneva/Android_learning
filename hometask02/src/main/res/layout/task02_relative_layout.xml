@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_photo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/photo"
+        android:layout_alignParentLeft="true">
+    </ImageView>
+    <ImageButton
+        android:id="@+id/camera_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_camera"
+        android:layout_alignRight="@+id/image_photo"
+        android:layout_alignBottom="@+id/image_photo"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp">
+    </ImageButton>
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/title"
+        android:layout_below="@+id/image_photo"></EditText>
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="20dp"
+        android:text="@string/price"></EditText>
+
+    <EditText
+        android:id="@+id/location"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/price"
+        android:drawableRight="@drawable/ic_location"
+        android:text="@string/location"></EditText>
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/description"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/price"></EditText>
+
+    <EditText
+        android:id="@+id/inventory"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description"
+        android:layout_marginTop="20dp"
+        android:text="@string/inventory"></EditText>
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/description"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/inventory"
+        android:text="@string/weight"></EditText>
+</RelativeLayout>
