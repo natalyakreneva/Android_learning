@@ -29,7 +29,7 @@ public class CustomView extends View {
     private Boolean isInsideSectors;
     public int selectedX;
     public int selectedY;
-    protected OnMyTouchListener onMyTouchListener;
+    private OnMyTouchListener onMyTouchListener;
 
     public CustomView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
@@ -105,7 +105,7 @@ public class CustomView extends View {
     }
 
 
-    private Boolean InsideInnerCircle (int selectedX, int selectedY) {
+    private Boolean insideInnerCircle (int selectedX, int selectedY) {
         if ((Math.pow((selectedX-centerX), 2)+Math.pow((selectedY-centerY), 2))<=RADIUS_C*RADIUS_C) {
            return true;
         }
@@ -113,7 +113,7 @@ public class CustomView extends View {
     }
 
 
-    private Boolean InsideSectors (int selectedX, int selectedY) {
+    private Boolean insideSectors (int selectedX, int selectedY) {
         if (((Math.pow((selectedX-centerX), 2)+Math.pow((selectedY-centerY), 2))<=RADIUS_S*RADIUS_S)
                 &&
                 ((Math.pow((selectedX-centerX), 2)+Math.pow((selectedY-centerY), 2))>=RADIUS_C*RADIUS_C)
@@ -124,8 +124,8 @@ public class CustomView extends View {
     }
 
     protected void changeColors () {
-        isInsideInnerCircle =InsideInnerCircle(selectedX,selectedY);
-        isInsideSectors = InsideSectors(selectedX, selectedY);
+        isInsideInnerCircle =insideInnerCircle(selectedX,selectedY);
+        isInsideSectors = insideSectors(selectedX, selectedY);
        if (isInsideSectors) {
             if ((selectedX <= centerX) && (selectedY <= centerY)) {
                 paintSectorUpperLeft.setColor(getRandomColor());
