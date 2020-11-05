@@ -16,9 +16,13 @@
             <option value="$PROJECT_DIR$/hometask02" />
             <option value="$PROJECT_DIR$/hometask03" />
             <option value="$PROJECT_DIR$/hometask04" />
+            <option value="$PROJECT_DIR$/hometask05" />
+            <option value="$PROJECT_DIR$/hometask06" />
+            <option value="$PROJECT_DIR$/hometask07" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
     </option>
   </component>

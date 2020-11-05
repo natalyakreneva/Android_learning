@@ -1,5 +1,9 @@
+include ':hometask07'
+include ':hometask06'
 include ':hometask03'
 include ':hometask02'
 include ':hometask01'
+include ':hometask04'
+include ':hometask05'
 include ':app'
 rootProject.name = "Android_learning"
